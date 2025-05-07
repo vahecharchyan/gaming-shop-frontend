@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <header>
+        <section id="logo flex justify-between">
+            <div class="row flex align-center justify-between">
+                <div class="col">
+                    <div class="wrapper flex">
+                        <a href="index.html">
+                            <div class="logo"><img src="images/zar-removebg-preview.png" alt=""></div>
+                        </a>
+                        <a href="index.html">
+                            <div class="title-2">ARCADE</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="wrapper">
+                        <nav>
+                            <ul class="flex justify-end">
+                                <li><a href="products.html">Products</a></li>
+                                <li><a href="contactus.html">Contact Us</a></li>
+                                <li><a href="login.html">Log In</a></li>
+                                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i> <span
+                                            class="count"></span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>  
+        <section id="cart">
+            <div class="row">
+                <div class="col w-70">
+                    <div class="wrapper">
+                        <div class="promocode">
+                            <input type="text" placeholder="50 off">
+                            <span class="apply_discount"><button>Apply</button></span>
+                        </div>
+                        <div class="cart_products">
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col w-30">
+                    <div class="wrapper sticky">
+                        <div class="items">Items in Cart <span class="count"></span></div>
+                        <div class="discount">Discount <span class="discounted_price">1000</span></div>
+                        
+                       <div class="flex rate">
+                        <span class="final_price_all">0 $</span>
+                        <div class="final_price_discounted">0 $</div>
+                       </div>
+                      <div class="btn"><button>Checkout</button></div>
+
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        
+
+
+
+
+
+        <div class="chat"><i class="fa-solid fa-message"></i></div>
+        <div class="overlaychat none">
+            <div class="question">How may i help you?</div>
+            <div class="answer none">Can't use you</div>
+            <div class="AI">
+                <div class="title-3">ARCADE</div>
+                <div class="desc">We’ll reply as soon as we can
+                </div>
+            </div>
+            <div class="smile"><i class="fa-solid fa-face-smile"></i></div>
+            <div class="link"><i class="fa-solid fa-link"></i></div>
+            <textarea placeholder="Type your message..."></textarea>
+            <div class="closechat">X</div>
+        </div>
+    </main>
+    <div class="overlay_page none"></div>
+    <section class="overlay-small none">
+        <div class="wrapper">
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/product.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
